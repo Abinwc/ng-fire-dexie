@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-fire-dexie';
+
+  create(){
+    console.log("create a firebase collections and add records to it")
+  }
+
+
+  fetch(){
+    console.log("fetch the collection data")
+  }
 }
